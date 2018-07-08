@@ -25,7 +25,9 @@ SECRET_KEY = 'i=drbi@-(edo&n1g)s8l7qfma@6y8a+-32!#_%=^lh3!145o7v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    '127.0.0.1', 'Toxin',
+]
 
 
 # Application definition
